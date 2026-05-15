@@ -9,7 +9,9 @@
   --bg-color: #F4F2EE;
 }
 
-html { font-size: 100%; }
+html {
+  font-size: 100%;
+}
 
 body {
   font-family: "Zen Old Mincho", serif;
@@ -30,7 +32,9 @@ header {
   padding-bottom: 1rem;
 }
 
-small { font-size: 20px; }
+small {
+  font-size: 20px;
+}
 
 #bar {
   background-image: linear-gradient(90deg, rgb(15, 105, 45), rgb(139, 202, 57));
@@ -40,18 +44,23 @@ small { font-size: 20px; }
   height: 10px;
 }
 
-.feature { opacity: 0; }
+.feature {
+  opacity: 0;
+}
 
 .gallery-item,
 .gallery-item2 {
   aspect-ratio: 3 / 2;
   object-fit: cover;
   border-radius: 4px;
-  opacity: 0; /* JSでアニメーションさせるための初期値 */
+  opacity: 0;
+  /* JSでアニメーションさせるための初期値 */
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
 
-.gallery-item { width: 100%; }
+.gallery-item {
+  width: 100%;
+}
 
 .gallery-item2 {
   width: 75%;
@@ -77,7 +86,9 @@ small { font-size: 20px; }
   padding: 15px;
 }
 
-.page-title { font-size: 22px; }
+.page-title {
+  font-size: 22px;
+}
 
 .heading-large {
   font-size: 1rem;
@@ -88,7 +99,9 @@ small { font-size: 20px; }
   letter-spacing: 0.02em;
 }
 
-.page-header { padding-top: .5rem; }
+.page-header {
+  padding-top: .5rem;
+}
 
 .cover {
   background-size: cover;
@@ -96,9 +109,13 @@ small { font-size: 20px; }
   height: 650px;
 }
 
-h2 span { color: var(--text-brown); }
+h2 span {
+  color: var(--text-brown);
+}
 
-.thumbnail { margin-bottom: 6rem; }
+.thumbnail {
+  margin-bottom: 6rem;
+}
 
 /* パラグラフスタイル調整 */
 .about p,
@@ -109,9 +126,20 @@ h2 span { color: var(--text-brown); }
   text-align: center;
 }
 
-.about p, .about5 p { font-size: 20px; }
-.about2 p, .about3 p, .about4 p { font-size: 1rem; }
-.about p { margin-bottom: 2rem; }
+.about p,
+.about5 p {
+  font-size: 20px;
+}
+
+.about2 p,
+.about3 p,
+.about4 p {
+  font-size: 1rem;
+}
+
+.about p {
+  margin-bottom: 2rem;
+}
 
 .about2 p {
   margin-bottom: 10rem;
@@ -119,10 +147,22 @@ h2 span { color: var(--text-brown); }
   letter-spacing: 0.02em;
 }
 
-.about3 p { margin-bottom: 1rem; }
-.about4 p { text-align: left; }
-.about5 p, .about6 p { margin: 1rem 3rem; }
-.about6 p { font-size: 20px; }
+.about3 p {
+  margin-bottom: 1rem;
+}
+
+.about4 p {
+  text-align: left;
+}
+
+.about5 p,
+.about6 p {
+  margin: 1rem 3rem;
+}
+
+.about6 p {
+  font-size: 20px;
+}
 
 .font-title,
 .font-title2 {
@@ -131,8 +171,13 @@ h2 span { color: var(--text-brown); }
   font-size: 22px;
 }
 
-.font-title { padding-bottom: 10px; }
-.font-title2 { padding: 25px; }
+.font-title {
+  padding-bottom: 10px;
+}
+
+.font-title2 {
+  padding: 25px;
+}
 
 .base-title {
   font-weight: normal;
@@ -142,7 +187,9 @@ h2 span { color: var(--text-brown); }
 }
 
 /* ハンバーガーメニュー */
-#menu-toggle { display: none; }
+#menu-toggle {
+  display: none;
+}
 
 .hamburger-menu {
   cursor: pointer;
@@ -433,8 +480,13 @@ h2 span { color: var(--text-brown); }
   padding: 35px;
 }
 
-.text-card { margin: 40px 35px 45px; }
-.text-card2 { margin: 200px 35px 45px; }
+.text-card {
+  margin: 40px 35px 45px;
+}
+
+.text-card2 {
+  margin: 200px 35px 45px;
+}
 
 .text-card p,
 .text-card2 p {
@@ -459,7 +511,9 @@ h2 span { color: var(--text-brown); }
   margin: 0 auto;
 }
 
-.page-top-btn:hover { opacity: 0.7; }
+.page-top-btn:hover {
+  opacity: 0.7;
+}
 
 .chevron {
   width: 22px;
@@ -480,7 +534,7 @@ h2 span { color: var(--text-brown); }
 .page-footer {
   background-size: cover;
   background-position: center;
-  padding-top: 150px; 
+  padding-top: 150px;
 }
 
 .copyright {
@@ -498,14 +552,51 @@ h2 span { color: var(--text-brown); }
 @media (min-width: 800px) {
 
   /* 全体的なフォントサイズと余白の調整 */
-  small { font-size: 2rem; }
-  .font-english { font-size: 3rem; }
-  .page-title, .font-title, .font-title2 { font-size: 30px; }
-  .align-left { font-size: 2rem; padding-left: 2rem; }
-  .heading-large { font-size: 1.5rem; padding-top: 25rem; }
-  .cover { height: 800px; }
-  .thumbnail { margin-bottom: 11rem; }
-  .about6 p { font-size: 1.5rem; }
+  small {
+    font-size: 2rem;
+  }
+
+  .font-english {
+    font-size: 3rem;
+  }
+
+  .page-title,
+  .font-title,
+  .font-title2 {
+    font-size: 30px;
+  }
+
+  .align-left {
+    font-size: 2rem;
+    padding-left: 2rem;
+  }
+
+  .heading-large {
+    font-size: 1.5rem;
+    padding-top: 65rem;
+  }
+
+  .gallery-item2 {
+  width: 50%;
+  margin-bottom: 75px;
+}
+
+.gallery-item3 {
+  width: 75%;
+  margin-bottom: 75px;
+}
+
+  .cover {
+    height: 800px;
+  }
+
+  .thumbnail {
+    margin-bottom: 11rem;
+  }
+
+  .about6 p {
+    font-size: 1.5rem;
+  }
 
   /* パラグラフの共通PCスタイル */
   .about p,
@@ -537,30 +628,76 @@ h2 span { color: var(--text-brown); }
   }
 
   .banner-wrapper {
-    width: 50%;
+    width: 25%;
     margin: 60px auto 6rem auto;
   }
 
   /* 画像ギャラリー（歴史セクション）のサイズと配置調整 */
-  .image-gallery { height: 500px; }
-  .img-box { width: 550px; height: 330px; }
-  .img-top { left: 10%; }
-  .img-bottom { top: 200px; right: 10%; }
+  .image-gallery {
+    height: 500px;
+  }
+
+  .img-box {
+    width: 550px;
+    height: 330px;
+  }
+
+  .img-top {
+    left: 10%;
+  }
+
+  .img-bottom {
+    top: 200px;
+    right: 10%;
+  }
 
   /* 相性の良い飲食物（メニュー）のレイアウト調整 */
-  .menu-container { height: auto; padding: 60px 0; }
-  .horizontal-line { top: 150px; }
-  .content { gap: 40px; padding: 0 40px; }
-  .column { flex-direction: row; justify-content: space-around; padding: 20px; gap: 35px; }
-  .item-title { font-size: 1.5rem; }
-  .img-wrapper { width: 130px; height: 130px; }
+  .menu-container {
+    height: auto;
+    padding: 60px 0;
+  }
+
+  .horizontal-line {
+    top: 150px;
+  }
+
+  .content {
+    gap: 40px;
+    padding: 0 40px;
+  }
+
+  .column {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 35px;
+  }
+
+  .item-title {
+    font-size: 1.5rem;
+  }
+
+  .img-wrapper {
+    width: 130px;
+    height: 130px;
+  }
 
   /* テキストカード */
-  .text-card { margin: 184px 124px; }
+  .text-card {
+    margin: 184px 500px;
+  }
+
+  .text-card2 {
+    margin: 200px 600px 45px;
+  }
 
   /* フッター */
-  .page-footer { padding-top: 12rem; }
+  .page-footer {
+    padding-top: 12rem;
+  }
 
   /* PCではハンバーガーメニューを非表示 */
-  .hamburger-menu { display: none; }
+  .hamburger-menu {
+    display: none;
+  }
 }
