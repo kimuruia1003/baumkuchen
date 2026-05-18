@@ -26,6 +26,12 @@ img {
   margin: 0 auto;
 }
 
+.image {
+  max-width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
 header {
   background-color: var(--bg-color);
   padding-left: 2rem;
@@ -404,7 +410,7 @@ h2 span {
 
 .baumkuchen-banner {
   width: 80%;
-  margin: 0 auto 44px 44px;
+  margin: 0 auto 100px 45px;
 }
 
 .baumkuchen-banner2 {
@@ -485,7 +491,7 @@ h2 span {
 }
 
 .text-card2 {
-  margin: 200px 35px 45px;
+  margin: 75px 35px 45px;
 }
 
 .text-card p,
@@ -573,7 +579,7 @@ h2 span {
 
   .heading-large {
     font-size: 1.5rem;
-    padding-top: 65rem;
+    padding-top: 50rem;
   }
 
   .gallery-item2 {
@@ -684,11 +690,11 @@ h2 span {
 
   /* テキストカード */
   .text-card {
-    margin: 184px 500px;
+    margin: auto 500px;
   }
 
   .text-card2 {
-    margin: 200px 600px 45px;
+    margin: 175px 425px 45px;
   }
 
   /* フッター */
