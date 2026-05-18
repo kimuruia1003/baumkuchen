@@ -42,6 +42,12 @@ small { font-size: 20px; }
 
 .feature { opacity: 0; }
 
+.image{
+  max-width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
 .gallery-item,
 .gallery-item2 {
   aspect-ratio: 3 / 2;
@@ -357,12 +363,12 @@ h2 span { color: var(--text-brown); }
 
 .baumkuchen-banner {
   width: 80%;
-  margin: 0 auto 44px 44px;
+  margin: 0 auto 90px 45px;
 }
 
 .baumkuchen-banner2 {
   width: 70%;
-  margin: 0 auto 44px 64px;
+  margin: 0 auto 65px 65px;
 }
 
 .banner-inner-frame {
@@ -434,7 +440,7 @@ h2 span { color: var(--text-brown); }
 }
 
 .text-card { margin: 40px 35px 45px; }
-.text-card2 { margin: 200px 35px 45px; }
+.text-card2 { margin: 85px 35px 45px; }
 
 .text-card p,
 .text-card2 p {
@@ -502,7 +508,7 @@ h2 span { color: var(--text-brown); }
   .font-english { font-size: 3rem; }
   .page-title, .font-title, .font-title2 { font-size: 30px; }
   .align-left { font-size: 2rem; padding-left: 2rem; }
-  .heading-large { font-size: 1.5rem; padding-top: 25rem; }
+  .heading-large { font-size: 1.5rem; padding-top: 50rem; }
   .cover { height: 800px; }
   .thumbnail { margin-bottom: 11rem; }
   .about6 p { font-size: 1.5rem; }
@@ -533,13 +539,23 @@ h2 span { color: var(--text-brown); }
   .baumkuchen-banner,
   .baumkuchen-banner2 {
     width: 60%;
-    margin: 0 auto 6rem auto;
-  }
+    margin: 0 auto 8rem auto;
+  } 
 
   .banner-wrapper {
-    width: 50%;
+    width: 25%;
     margin: 60px auto 6rem auto;
   }
+
+  .gallery-item2 {
+    width: 50%;
+    margin-bottom: 75px;
+}
+
+.gallery-item3 {
+    width: 75%;
+    margin-bottom: 75px;
+}
 
   /* 画像ギャラリー（歴史セクション）のサイズと配置調整 */
   .image-gallery { height: 500px; }
@@ -556,7 +572,11 @@ h2 span { color: var(--text-brown); }
   .img-wrapper { width: 130px; height: 130px; }
 
   /* テキストカード */
-  .text-card { margin: 184px 124px; }
+  .text-card { margin: auto 500px; }
+
+  .text-card2 {
+    margin: 175px 425px 45px;
+}
 
   /* フッター */
   .page-footer { padding-top: 12rem; }
